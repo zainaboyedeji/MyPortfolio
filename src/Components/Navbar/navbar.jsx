@@ -3,12 +3,12 @@ import wave from "../../Images/wave.png"
 
 function Navbar() {
   return (
-    <div className="Navbar">
-      <div>
-        <img src={wave} alt="wave" className='w-3'/>
+    <div className="flex justify-between w-100">
+      <div className='flex'>
+        <img src={wave} alt="wave" className='w-4'/>
         <p> Zainab O.</p>
         </div>
-        <div>
+        <div className='flex justify-between w-1/5'>
           <p>All Projects</p>
           <p>Contact</p>
         </div>
